@@ -1,0 +1,23 @@
+.layout {
+  @apply h-dvh w-full flex flex-col bg-slate-100;
+
+  &__header {
+    @apply p-2 bg-slate-800;
+  }
+
+  &__body {
+    @apply flex-1 flex relative;
+  }
+
+  &__sidebar {
+    @apply w-60 h-full z-10 absolute top-0 -left-full lg:static transition-all duration-700 bg-slate-200;
+
+    &--view {
+      @apply left-0;
+    }
+  }
+
+  &__content {
+    @apply flex-1 p-6;
+  }
+}
