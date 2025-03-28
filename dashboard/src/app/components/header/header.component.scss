@@ -1,0 +1,11 @@
+.header {
+    @apply w-full flex justify-between items-center p-3;
+
+    &__title {
+        @apply text-2xl text-slate-100;
+    }
+
+    &__button {
+        @apply text-4xl text-slate-100 lg:hidden;
+    }
+}
