@@ -3,7 +3,9 @@
         <app-header (toggleSidebar)="sidebarToggle()" [isSidebarOpen]="toggle"></app-header>
     </header>
     <div class="layout__body">
-        <aside class="layout__sidebar" [class.layout__sidebar--view]="toggle"></aside>
+        <aside class="layout__sidebar" [class.layout__sidebar--view]="toggle">
+            <app-sidebar (redirectEvent)="redirectEvent()"></app-sidebar>
+        </aside>
         <main class="layout__content">
             
         </main>

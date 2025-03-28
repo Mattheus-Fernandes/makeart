@@ -1,0 +1,10 @@
+<nav class="sidebar" (click)="redirect()">
+    <ul class="sidebar__items">
+        <ng-container *ngFor="let item of sidebarItems">
+            <li class="sidebar__item" (click)="redirectTo(item.routeLink)">
+                <i [class]="'ph ph-' + item.icon" class="sidebar__icon"></i>
+                <a class="sidebar__label">{{item.label}}</a>
+            </li>
+        </ng-container>
+    </ul>
+</nav>

@@ -1,0 +1,25 @@
+.sidebar {
+    @apply h-full w-full p-2;
+
+    &__items {
+        @apply flex flex-col gap-4 lg:gap-1;
+    }
+
+    &__item {
+        @apply flex items-center gap-2 text-slate-700 py-1 px-2 rounded-full cursor-pointer transition-all duration-500;
+
+        &:hover {
+            @apply  lg:text-slate-50 lg:bg-slate-700;
+        }
+    }
+
+    &__icon {
+        @apply text-xl pb-0.5;
+    }
+
+    &__label {
+        @apply block text-xl  lg:text-base;
+
+        
+    }
+}

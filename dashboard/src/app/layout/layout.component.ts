@@ -11,4 +11,8 @@ export class LayoutComponent  {
   sidebarToggle() {
     this.toggle = !this.toggle
   }
+
+  redirectEvent() {
+    this.toggle = false
+  }
 }
