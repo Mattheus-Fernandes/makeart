@@ -8,7 +8,6 @@ import { SibebarItemsList } from 'src/app/types/sidebar-items-list.type';
 })
 export class SidebarComponent {
   sidebarItems: SibebarItemsList = [
-    { label: 'Geral', routeLink: '', icon: 'house' },
     { label: 'Produtos', routeLink: '', icon: 'squares-four' },
     { label: 'Finalizar venda', routeLink: '', icon: 'currency-dollar' },
     { label: 'Mais vendidos', routeLink: '', icon: 'chart-line-up' },
