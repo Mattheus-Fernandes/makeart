@@ -1,5 +1,5 @@
 .layout {
-  @apply h-dvh w-full flex flex-col bg-slate-100;
+  @apply h-auto min-h-dvh w-full flex flex-col bg-slate-100;
 
   &__header {
     @apply p-2 bg-slate-800;
@@ -18,6 +18,6 @@
   }
 
   &__content {
-    @apply flex-1 p-6;
+    @apply flex-1 p-2 lg:p-6;
   }
 }
