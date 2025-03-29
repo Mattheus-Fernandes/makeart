@@ -6,7 +6,7 @@
   }
 
   &__body {
-    @apply flex-1 flex relative;
+    @apply flex-1 flex relative lg:overflow-hidden;
   }
 
   &__sidebar {
