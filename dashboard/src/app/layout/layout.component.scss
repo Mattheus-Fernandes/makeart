@@ -10,7 +10,7 @@
   }
 
   &__sidebar {
-    @apply w-60 h-full z-10 absolute top-0 -left-full lg:static transition-all duration-700 bg-slate-200;
+    @apply w-60 h-full z-10 absolute top-0 -left-full lg:static transition-all duration-700 bg-slate-200 overflow-hidden;
 
     &--view {
       @apply left-0;
