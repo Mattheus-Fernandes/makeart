@@ -31,8 +31,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
-              "node_modules/phosphor-icons/src/css/phosphor.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
