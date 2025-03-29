@@ -1,5 +1,5 @@
 .sidebar {
-    @apply h-full w-full p-2;
+    @apply h-full w-full p-2 overflow-auto;
 
     &__items {
         @apply flex flex-col gap-4 lg:gap-1;
